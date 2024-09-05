@@ -89,6 +89,7 @@ footer {
 .einstieg p {
     color: #fff;
     margin-bottom: 2rem;
+    text-align: center;
 }
 .einstieg div {
     display: flex;
@@ -385,6 +386,34 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
+    p {
+        font-size: 18px;
+    }
+    .usp-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .usp-card img {
+        width: 100%;
+    }
+    .sct-options {
+        padding: 6rem;
+    }
+    .img-part {
+        gap: 1rem;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .img-container {
+        width: 47%;
+    }
+    .sct-testamonials {
+        padding: 6rem;
+    }
+    .cta-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
